@@ -1,0 +1,10 @@
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\bin\Debug\TooManyClicks.exe.config
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\bin\Debug\TooManyClicks.exe
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\bin\Debug\TooManyClicks.pdb
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.csprojAssemblyReference.cache
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.TooManyClicks_Form.resources
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.Properties.Resources.resources
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.csproj.GenerateResource.cache
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.csproj.CoreCompileInputs.cache
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.exe
+C:\Users\enriq\Documents\Otras cosas\Programación\Proyectos de Visual Studio (C#)\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.pdb
