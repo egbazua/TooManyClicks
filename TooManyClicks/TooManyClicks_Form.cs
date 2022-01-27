@@ -60,5 +60,11 @@ namespace TooManyClicks
                 myUserForm.ShowDialog();
             } 
         }
+
+        private void recordsBtn_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }//Fin de la Clase.
 }

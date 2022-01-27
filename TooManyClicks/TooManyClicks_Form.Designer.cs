@@ -40,6 +40,7 @@
             this.numerocontador_Lbl = new System.Windows.Forms.Label();
             this.temporizador_Tmr = new System.Windows.Forms.Timer(this.components);
             this.tiempo_Lbl = new System.Windows.Forms.Label();
+            this.recordsBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.imagen_Pbx)).BeginInit();
             this.SuspendLayout();
             // 
@@ -149,13 +150,27 @@
             this.tiempo_Lbl.TabIndex = 9;
             this.tiempo_Lbl.Text = "SEGUNDOS";
             // 
+            // recordsBtn
+            // 
+            this.recordsBtn.BackColor = System.Drawing.Color.Red;
+            this.recordsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.recordsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordsBtn.Location = new System.Drawing.Point(336, 336);
+            this.recordsBtn.Name = "recordsBtn";
+            this.recordsBtn.Size = new System.Drawing.Size(103, 46);
+            this.recordsBtn.TabIndex = 10;
+            this.recordsBtn.Text = "Records";
+            this.recordsBtn.UseVisualStyleBackColor = false;
+            this.recordsBtn.Click += new System.EventHandler(this.recordsBtn_Click);
+            // 
             // TooManyClicks_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(438, 343);
+            this.ClientSize = new System.Drawing.Size(438, 381);
+            this.Controls.Add(this.recordsBtn);
             this.Controls.Add(this.tiempo_Lbl);
             this.Controls.Add(this.numerocontador_Lbl);
             this.Controls.Add(this.contador_Lbl);
@@ -190,6 +205,7 @@
         private System.Windows.Forms.Label numerocontador_Lbl;
         private System.Windows.Forms.Timer temporizador_Tmr;
         private System.Windows.Forms.Label tiempo_Lbl;
+        private System.Windows.Forms.Button recordsBtn;
     }
 }
 
