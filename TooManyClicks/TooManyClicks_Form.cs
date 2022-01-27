@@ -12,8 +12,13 @@ namespace TooManyClicks
 {
     public partial class TooManyClicks_Form : Form
     {
+        // Variables
         int click;
         int contador;
+
+        // userForm Instance
+        userForm myUserForm = new userForm();
+
         public TooManyClicks_Form()
         {
             InitializeComponent();
@@ -52,6 +57,7 @@ namespace TooManyClicks
                 temporizador_Tmr.Stop();
                 jugar_Btn.Enabled = false;
                 iniciar_Btn.Text = "INICIAR";
+                myUserForm.ShowDialog();
             } 
         }
     }//Fin de la Clase.
