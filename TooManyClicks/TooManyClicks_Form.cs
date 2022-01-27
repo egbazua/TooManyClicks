@@ -67,5 +67,10 @@ namespace TooManyClicks
             myRecordsForm.ShowDialog();
         }
 
+        private void TooManyClicks_Form_Load(object sender, EventArgs e)
+        {
+            ConnectionDB myConnection = new ConnectionDB();
+            myConnection.open();
+        }
     }//Fin de la Clase.
 }

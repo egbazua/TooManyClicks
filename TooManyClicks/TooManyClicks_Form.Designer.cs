@@ -187,6 +187,7 @@
             this.Name = "TooManyClicks_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TooManyClicks";
+            this.Load += new System.EventHandler(this.TooManyClicks_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.imagen_Pbx)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
