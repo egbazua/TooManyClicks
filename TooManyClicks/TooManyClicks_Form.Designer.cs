@@ -47,6 +47,7 @@
             // 
             this.título_Lbl.AutoSize = true;
             this.título_Lbl.Font = new System.Drawing.Font("Comic Sans MS", 40F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.título_Lbl.ForeColor = System.Drawing.Color.White;
             this.título_Lbl.Location = new System.Drawing.Point(15, 8);
             this.título_Lbl.Name = "título_Lbl";
             this.título_Lbl.Size = new System.Drawing.Size(408, 74);
