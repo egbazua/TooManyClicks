@@ -43,12 +43,12 @@ namespace TooManyClicks
             myConnection.Close();
         }
 
-        // Función para cargar records.
+        // Función para cargar (select * from records) records.
         public void cargarRecords(DataGridView dgv)
         {
             try
             {
-                sqlDataAdapter = new SqlDataAdapter("select * from records", myConnection);
+                sqlDataAdapter = new SqlDataAdapter("select idRecord as 'ID', nameUser as 'Nombre de Usuario', score as 'Puntuación', dateRecord as 'Fecha' from records;", myConnection);
                 dataTable = new DataTable();
                 sqlDataAdapter.Fill(dataTable);
                 dgv.DataSource = dataTable;
