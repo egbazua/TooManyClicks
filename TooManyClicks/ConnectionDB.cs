@@ -63,7 +63,7 @@ namespace TooManyClicks
         public string insertarRecord(string nameUser, int score)
         {
 
-            string salida = "Proceso terminado.";
+            string salida = "Record guardado.";
             
             try
             {
@@ -73,6 +73,7 @@ namespace TooManyClicks
                 sqlCommand.Parameters.Add("@nameUser", SqlDbType.VarChar).Value = nameUser;
                 sqlCommand.Parameters.Add("@score", SqlDbType.Int).Value = score;
                 sqlCommand.Parameters.Add("@dateRecord", SqlDbType.Date).Value = DateTime.Now.ToLongDateString();
+                sqlCommand.Parameters.Add("@mensaje", SqlDbType.VarChar).Value = "";
                 sqlCommand.ExecuteNonQuery();
             }
             catch (Exception ex)
