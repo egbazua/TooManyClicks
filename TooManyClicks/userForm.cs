@@ -12,9 +12,10 @@ namespace TooManyClicks
 {
     public partial class userForm : Form
     {
-        public userForm()
+        public userForm(string recordData)
         {
             InitializeComponent();
+            recordLbl.Text = recordData;
         }
     }
 }

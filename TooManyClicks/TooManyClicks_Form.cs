@@ -16,9 +16,6 @@ namespace TooManyClicks
         int click;
         int contador;
 
-        // userForm Instance
-        userForm myUserForm = new userForm();
-
         public TooManyClicks_Form()
         {
             InitializeComponent();
@@ -57,6 +54,9 @@ namespace TooManyClicks
                 temporizador_Tmr.Stop();
                 jugar_Btn.Enabled = false;
                 iniciar_Btn.Text = "INICIAR";
+
+                // userForm Instance
+                userForm myUserForm = new userForm(clicks_Lbl.Text);
                 myUserForm.ShowDialog();
             } 
         }
