@@ -67,7 +67,7 @@ namespace TooManyClicks
             
             try
             {
-                sqlCommand = new SqlCommand("[INSERTA_RECORD]", myConnection);
+                sqlCommand = new SqlCommand("[insertRecord]", myConnection);
                 sqlCommand.CommandType = CommandType.StoredProcedure;
 
                 sqlCommand.Parameters.Add("@nameUser", SqlDbType.VarChar).Value = nameUser;

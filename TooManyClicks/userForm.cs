@@ -28,7 +28,7 @@ namespace TooManyClicks
             {
                 ConnectionDB myConnection = new ConnectionDB();
 
-                myConnection.insertarRecord(nameUserTbx.Text, Convert.ToInt32(recordLbl.Text));
+                MessageBox.Show(myConnection.insertarRecord(nameUserTbx.Text, Convert.ToInt32(recordLbl.Text)));
 
                 Close();
             }
