@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="recordsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="recordsForm.Designer.cs">
+      <DependentUpon>recordsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="TooManyClicks_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     <Compile Include="userForm.Designer.cs">
       <DependentUpon>userForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="recordsForm.resx">
+      <DependentUpon>recordsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TooManyClicks_Form.resx">
       <DependentUpon>TooManyClicks_Form.cs</DependentUpon>
     </EmbeddedResource>
