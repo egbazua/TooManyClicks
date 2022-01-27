@@ -20,13 +20,16 @@ namespace TooManyClicks
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
+            ConnectionDB myConnection = new ConnectionDB();
+            myConnection.open();
+
             if (string.IsNullOrWhiteSpace(nameUserTbx.Text))
             {
                 MessageBox.Show("Por favor de introducir un nombre válido.");
             }
             else
             {
-                ConnectionDB myConnection = new ConnectionDB();
+                //ConnectionDB myConnection = new ConnectionDB();
 
                 MessageBox.Show(myConnection.insertarRecord(nameUserTbx.Text, Convert.ToInt32(recordLbl.Text)));
 
