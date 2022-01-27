@@ -63,7 +63,8 @@ namespace TooManyClicks
 
         private void recordsBtn_Click(object sender, EventArgs e)
         {
-
+            recordsForm myRecordsForm = new recordsForm();
+            myRecordsForm.ShowDialog();
         }
 
     }//Fin de la Clase.

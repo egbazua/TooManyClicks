@@ -20,3 +20,4 @@ C:\Users\enriq\Documents\Informática\Programación\Personal Projects\.NET\TooMa
 C:\Users\enriq\Documents\Informática\Programación\Personal Projects\.NET\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.exe
 C:\Users\enriq\Documents\Informática\Programación\Personal Projects\.NET\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.pdb
 C:\Users\enriq\Documents\Informática\Programación\Personal Projects\.NET\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.userForm.resources
+C:\Users\enriq\Documents\Informática\Programación\Personal Projects\.NET\TooManyClicks\TooManyClicks\obj\Debug\TooManyClicks.recordsForm.resources
