@@ -30,12 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(recordsForm));
             this.titleRecordLbl = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.idRecord = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nameUser = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.score = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dateRecord = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.recordsDgv = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.recordsDgv)).BeginInit();
             this.SuspendLayout();
             // 
             // titleRecordLbl
@@ -49,38 +45,13 @@
             this.titleRecordLbl.TabIndex = 0;
             this.titleRecordLbl.Text = "RECORDS";
             // 
-            // dataGridView1
+            // recordsDgv
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.idRecord,
-            this.nameUser,
-            this.score,
-            this.dateRecord});
-            this.dataGridView1.Location = new System.Drawing.Point(38, 104);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(443, 241);
-            this.dataGridView1.TabIndex = 1;
-            // 
-            // idRecord
-            // 
-            this.idRecord.HeaderText = "ID";
-            this.idRecord.Name = "idRecord";
-            // 
-            // nameUser
-            // 
-            this.nameUser.HeaderText = "Nombre de usuario";
-            this.nameUser.Name = "nameUser";
-            // 
-            // score
-            // 
-            this.score.HeaderText = "Puntuación";
-            this.score.Name = "score";
-            // 
-            // dateRecord
-            // 
-            this.dateRecord.HeaderText = "Fecha";
-            this.dateRecord.Name = "dateRecord";
+            this.recordsDgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.recordsDgv.Location = new System.Drawing.Point(38, 104);
+            this.recordsDgv.Name = "recordsDgv";
+            this.recordsDgv.Size = new System.Drawing.Size(443, 241);
+            this.recordsDgv.TabIndex = 1;
             // 
             // recordsForm
             // 
@@ -89,7 +60,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(519, 401);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.recordsDgv);
             this.Controls.Add(this.titleRecordLbl);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -100,7 +71,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Records";
             this.Load += new System.EventHandler(this.recordsForm_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.recordsDgv)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -109,10 +80,6 @@
         #endregion
 
         private System.Windows.Forms.Label titleRecordLbl;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn idRecord;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nameUser;
-        private System.Windows.Forms.DataGridViewTextBoxColumn score;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dateRecord;
+        private System.Windows.Forms.DataGridView recordsDgv;
     }
 }

@@ -20,7 +20,7 @@ namespace TooManyClicks
         private void recordsForm_Load(object sender, EventArgs e)
         {
             ConnectionDB myConnection = new ConnectionDB();
-
+            myConnection.cargarRecords(recordsDgv);
         }
     }
 }
