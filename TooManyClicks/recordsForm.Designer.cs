@@ -35,11 +35,11 @@
             // titleRecordLbl
             // 
             this.titleRecordLbl.AutoSize = true;
-            this.titleRecordLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleRecordLbl.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.titleRecordLbl.ForeColor = System.Drawing.Color.White;
             this.titleRecordLbl.Location = new System.Drawing.Point(122, 25);
             this.titleRecordLbl.Name = "titleRecordLbl";
-            this.titleRecordLbl.Size = new System.Drawing.Size(212, 42);
+            this.titleRecordLbl.Size = new System.Drawing.Size(199, 51);
             this.titleRecordLbl.TabIndex = 0;
             this.titleRecordLbl.Text = "RECORDS";
             // 

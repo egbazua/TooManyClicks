@@ -47,22 +47,22 @@
             // userFormLbl
             // 
             this.userFormLbl.AutoSize = true;
-            this.userFormLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.userFormLbl.Font = new System.Drawing.Font("Comic Sans MS", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.userFormLbl.ForeColor = System.Drawing.Color.White;
             this.userFormLbl.Location = new System.Drawing.Point(16, 22);
             this.userFormLbl.Name = "userFormLbl";
-            this.userFormLbl.Size = new System.Drawing.Size(331, 31);
+            this.userFormLbl.Size = new System.Drawing.Size(349, 38);
             this.userFormLbl.TabIndex = 1;
             this.userFormLbl.Text = "WHAT IS YOUR NAME?";
             // 
             // recordTitleLbl
             // 
             this.recordTitleLbl.AutoSize = true;
-            this.recordTitleLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordTitleLbl.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.recordTitleLbl.ForeColor = System.Drawing.Color.White;
             this.recordTitleLbl.Location = new System.Drawing.Point(122, 130);
             this.recordTitleLbl.Name = "recordTitleLbl";
-            this.recordTitleLbl.Size = new System.Drawing.Size(77, 24);
+            this.recordTitleLbl.Size = new System.Drawing.Size(80, 26);
             this.recordTitleLbl.TabIndex = 2;
             this.recordTitleLbl.Text = "Record:";
             // 
@@ -81,11 +81,11 @@
             // 
             this.saveBtn.BackColor = System.Drawing.Color.Red;
             this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.saveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBtn.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveBtn.ForeColor = System.Drawing.Color.White;
             this.saveBtn.Location = new System.Drawing.Point(137, 168);
             this.saveBtn.Name = "saveBtn";
-            this.saveBtn.Size = new System.Drawing.Size(83, 33);
+            this.saveBtn.Size = new System.Drawing.Size(83, 40);
             this.saveBtn.TabIndex = 4;
             this.saveBtn.Text = "SAVE";
             this.saveBtn.UseVisualStyleBackColor = false;

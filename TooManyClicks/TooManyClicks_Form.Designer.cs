@@ -154,7 +154,7 @@
             // 
             this.recordsBtn.BackColor = System.Drawing.Color.Red;
             this.recordsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.recordsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.recordsBtn.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.recordsBtn.Location = new System.Drawing.Point(336, 336);
             this.recordsBtn.Name = "recordsBtn";
             this.recordsBtn.Size = new System.Drawing.Size(103, 46);
