@@ -17,5 +17,17 @@ namespace TooManyClicks
             InitializeComponent();
             recordLbl.Text = recordData;
         }
+
+        private void saveBtn_Click(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(nameUserTbx.Text))
+            {
+                MessageBox.Show("Por favor de introducir un nombre válido.");
+            }
+            else
+            {
+                Close();
+            }
+        }
     }
 }

@@ -29,19 +29,20 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userForm));
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.nameUserTbx = new System.Windows.Forms.TextBox();
             this.userFormLbl = new System.Windows.Forms.Label();
             this.recordTitleLbl = new System.Windows.Forms.Label();
             this.recordLbl = new System.Windows.Forms.Label();
+            this.saveBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // nameUserTbx
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(93, 79);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(176, 29);
-            this.textBox1.TabIndex = 0;
+            this.nameUserTbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameUserTbx.Location = new System.Drawing.Point(93, 79);
+            this.nameUserTbx.Name = "nameUserTbx";
+            this.nameUserTbx.Size = new System.Drawing.Size(176, 29);
+            this.nameUserTbx.TabIndex = 0;
             // 
             // userFormLbl
             // 
@@ -76,21 +77,37 @@
             this.recordLbl.TabIndex = 3;
             this.recordLbl.Text = "0";
             // 
+            // saveBtn
+            // 
+            this.saveBtn.BackColor = System.Drawing.Color.Red;
+            this.saveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.saveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.saveBtn.ForeColor = System.Drawing.Color.White;
+            this.saveBtn.Location = new System.Drawing.Point(137, 168);
+            this.saveBtn.Name = "saveBtn";
+            this.saveBtn.Size = new System.Drawing.Size(83, 33);
+            this.saveBtn.TabIndex = 4;
+            this.saveBtn.Text = "SAVE";
+            this.saveBtn.UseVisualStyleBackColor = false;
+            this.saveBtn.Click += new System.EventHandler(this.saveBtn_Click);
+            // 
             // userForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(359, 181);
+            this.ClientSize = new System.Drawing.Size(359, 220);
+            this.Controls.Add(this.saveBtn);
             this.Controls.Add(this.recordLbl);
             this.Controls.Add(this.recordTitleLbl);
             this.Controls.Add(this.userFormLbl);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.nameUserTbx);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "userForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Save your record!";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -99,9 +116,10 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox nameUserTbx;
         private System.Windows.Forms.Label userFormLbl;
         private System.Windows.Forms.Label recordTitleLbl;
         private System.Windows.Forms.Label recordLbl;
+        private System.Windows.Forms.Button saveBtn;
     }
 }

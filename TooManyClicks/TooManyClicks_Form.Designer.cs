@@ -170,6 +170,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "TooManyClicks_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TooManyClicks";
             ((System.ComponentModel.ISupportInitialize)(this.imagen_Pbx)).EndInit();
             this.ResumeLayout(false);
