@@ -26,6 +26,10 @@ namespace TooManyClicks
             }
             else
             {
+                ConnectionDB myConnection = new ConnectionDB();
+
+                myConnection.insertarRecord(nameUserTbx.Text, Convert.ToInt32(recordLbl.Text));
+
                 Close();
             }
         }

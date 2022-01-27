@@ -39,7 +39,7 @@
             // nameUserTbx
             // 
             this.nameUserTbx.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameUserTbx.Location = new System.Drawing.Point(93, 79);
+            this.nameUserTbx.Location = new System.Drawing.Point(97, 81);
             this.nameUserTbx.Name = "nameUserTbx";
             this.nameUserTbx.Size = new System.Drawing.Size(176, 29);
             this.nameUserTbx.TabIndex = 0;
