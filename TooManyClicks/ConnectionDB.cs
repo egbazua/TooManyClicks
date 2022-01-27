@@ -58,5 +58,29 @@ namespace TooManyClicks
                 MessageBox.Show("No se pudo llenar el Datagridview: " + ex.ToString());
             }
         }
+
+        //Función para insertar records.
+        public string insertarRecord(string nameUser, int score)
+        {
+
+            string salida = "Proceso terminado.";
+            
+            try
+            {
+                sqlCommand = new SqlCommand("[INSERTA_RECORD]", myConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+
+                sqlCommand.Parameters.Add("@nameUser", SqlDbType.VarChar).Value = nameUser;
+                sqlCommand.Parameters.Add("@score", SqlDbType.Int).Value = score;
+                sqlCommand.Parameters.Add("@dateRecord", SqlDbType.Date).Value = DateTime.Now.ToLongDateString();
+                sqlCommand.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                salida = "No se conectó: " + ex.ToString();
+            }
+
+            return salida;
+        }
     }
 }
